@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@media(max-width:900px){
+    .background-container{
+        height: 600px;
+    }
+    .container{
+        height: auto;
+    }
+}
+@media(max-width:700px){
+    .container{
+        width: 90%;
+    }
+}
+@media(max-width:1000px){
+   .site-qsn{
+    font-size: 28px;
+   }
+   .site-ans{
+    font-size: 14px;
+    padding-top: 0;
+   }
+}
+
+@media(max-width:800px){
+    .bottom-top{
+        flex-direction: column-reverse;
+        padding: 40px;
+    }
+    .best,.info{
+        width: 100%;
+        
+    }
+    .site-qsn{
+        font-size: 36px;
+        padding-bottom: 0;
+       }
+       .site-ans{
+        font-size: 18px;
+        padding-top:16px;
+       }
+       .Btn{
+        width: 75vw;
+       }
+}
+
+@media(max-width:450px){
+    .site-qsn{
+     font-size: 24px;
+    }
+    .site-ans{
+     font-size: 12px;
+    }
+ }
+
+ @media(max-width:600px){
+    .faq-qsn{
+        font-size: 16px;
+    }
+    .faq-ans{
+        font-size: 12px;
+    }
+ }
