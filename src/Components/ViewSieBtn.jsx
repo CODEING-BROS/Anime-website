@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
-const Button = () => {
+const ViewSiteButton = ({text}) => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
@@ -11,7 +11,7 @@ const Button = () => {
   return (
     <StyledWrapper>
       <button  onClick={handleButtonClick} className="button w-full p-3">
-        View Site
+        {text}
         <svg fill="currentColor" viewBox="0 0 24 24" className="icon">
           <path
             clipRule="evenodd"
@@ -93,4 +93,4 @@ const StyledWrapper = styled.div`
   }
 `;
 
-export default Button;
+export default ViewSiteButton;

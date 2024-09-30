@@ -73,7 +73,7 @@ const Faq = () => {
                                 {openIndex === index && (
                                     <div id={`accordion-open-body-${index}`} className="border p-10 border-b-0 border-gray-200 dark:border-gray-700">
                                         {item.answer.map((ans, ansIndex) => (
-                                            <p key={ansIndex} className="mb-4 text-lg faq-ans text-[#21E2AD] ">{ans}</p>
+                                            <p key={ansIndex} className="mb-4 text-lg faq-ans text-[#ffffff99] ">{ans}</p>
                                         ))}
                                     </div>
                                 )}

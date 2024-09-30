@@ -36,12 +36,12 @@ body::-webkit-scrollbar {
         padding: 40px;
     }
     .best,.info{
-        width: 100%;
-        
+        width: 100;
     }
     .site-qsn{
         font-size: 36px;
         padding-bottom: 0;
+        
        }
        .site-ans{
         font-size: 18px;
@@ -69,3 +69,44 @@ body::-webkit-scrollbar {
         font-size: 12px;
     }
  }
+
+  /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+/* Hide scrollbar for Firefox */
+.scrollbar-hide {
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for IE and Edge */
+.scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+@keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    40% {
+      transform: scale(1.6); /* Scale up */
+    }
+    100% {
+      transform: scale(1); /* Scale back to original */
+    }
+  }
+  
+  .extra-menu-svg {
+    animation: beat 1s infinite; /* Apply the beat animation */
+    transition: fill 0.3s ease;
+  }
+  
+
+  @media (max-width:550px) {
+    .genre-button{
+        font-size: 14px;
+    }
+  }
+
+  
