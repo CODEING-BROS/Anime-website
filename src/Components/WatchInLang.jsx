@@ -41,7 +41,7 @@ const WatchInLang = () => {
         <h1 className="text-4xl pb-5 site-qsn leading-none font-bebas">
           Explore Anime in Your Language
         </h1>
-        <p className="text-md site-ans text-[#ffffff99] font-Mons ">
+        <p className="text-md site-ans text-[#21E2AD] font-Mons ">
           Choose your preferred language and watch the best anime with iconic characters.
         </p>
       </div>

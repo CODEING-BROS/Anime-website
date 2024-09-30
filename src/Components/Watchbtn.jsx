@@ -4,12 +4,8 @@ import styled from "styled-components";
 const WatchButton = ({text}) => {
   return (
     <StyledWrapper>
-      <div className="voltage-button ">
-        <button className="flex  gap-2">
-            <div className="icon border-full text-white  w-4 h-4">
-            <svg  fill="#fff" stroke="#fff"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9l0-176c0-8.7 4.7-16.7 12.3-20.9z"/></svg>
-            </div>
+      <div className="voltage-button text-[20px]  ">
+        <button className="flex px-[22px] py-[12px] gap-2">
             <div className="text font-bebas ">{text}</div>
         </button>
         <svg
@@ -82,10 +78,8 @@ const StyledWrapper = styled.div`
 .voltage-button button {
   color: white;
   background: #0D1127;
-  padding: 12px 22px ;
-  border-radius: 5rem;
+  border-radius: 0.5em;
   border: 2px solid #5978F3;
-  font-size: 1.2rem;
   line-height: 1em;
   letter-spacing: 0.075em;
   transition: background 0.3s;

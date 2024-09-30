@@ -52,7 +52,7 @@ const Header = () => {
               <h1 className="text-white font-bebas site-qsn text-4xl">
                 The best site to watch anime in Hindi, Telugu, Tamil, Malayalam, Bengali online for Free
               </h1>
-              <p className="text-[#ffffff99] site-ans  font-Mons text-lg pt-5 ">
+              <p className="text-[#21E2AD] site-ans  font-Mons text-lg pt-5 ">
                   Anime has captured the hearts of fans worldwide, generating over a billion monthly searches for anime content. Despite the growing demand, many streaming platforms fall short with limited libraries, disruptive ads, or slow streaming speeds.
 
                   That's where **Anime** steps in. Our mission is to create the ultimate free anime streaming platform, offering an extensive collection of beloved series and hidden gems—all in HD and available in languages like Hindi, Telugu, Tamil, Malayalam, and Bengali. We focus on providing a seamless, ad-free viewing experience across devices, ensuring that language barriers or technical issues never stand between you and your favorite shows.

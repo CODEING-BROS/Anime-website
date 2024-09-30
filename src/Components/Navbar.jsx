@@ -110,7 +110,7 @@ function Navbar() {
 
 
   return (
-    <nav className="relative flex bg-[#000201] items-center text-2xl font-bebas justify-between px-8 py-5">
+    <nav className="relative flex bg-[#000201] items-center text-2xl font-bebas justify-between nav px-8 py-5">
       {/* Background Blur */}
       <div
         className={`fixed inset-0 transition-all duration-300 ${menuOpen ? "backdrop-blur-md z-10" : ""} pointer-events-none`}
@@ -119,30 +119,30 @@ function Navbar() {
       {/* Left Section (Logo and Hamburger Icon) */}
       <div className="part1 flex text-[#1BE887] items-center gap-5">
         <button className="hamburger" aria-label="Open menu" onClick={toggleMenu}>
-          <span className="icon cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="#1BE887" width="30" height="30" viewBox="0 0 48 48">
+          <span className="  cursor-pointer">
+            <svg className="w-7 h-7 icon" xmlns="http://www.w3.org/2000/svg" fill="#1BE887"  viewBox="0 0 48 48">
               <path d="M 6 9 A 2.0002 2.0002 0 1 0 6 13 L 42 13 A 2.0002 2.0002 0 1 0 42 9 L 6 9 z M 6 22 A 2.0002 2.0002 0 1 0 6 26 L 42 26 A 2.0002 2.0002 0 1 0 42 22 L 6 22 z M 6 35 A 2.0002 2.0002 0 1 0 6 39 L 42 39 A 2.0002 2.0002 0 1 0 42 35 L 6 35 z"></path>
             </svg>
           </span>
         </button>
-        <div className="logo">
-          <span className="uppercase text-4xl md:text-5xl">Anime</span>
+        <div className="">
+          <span className="uppercase logo  text-5xl">Anime</span>
         </div>
       </div>
 
       {/* Right Section (Languages and Search) */}
       <div className="part2 -tracking-tight cursor-pointer text-[#ffffffb3] flex items-center justify-center gap-4">
-        <div className="langs hidden md:flex g">
+        <div className="langs  flex ">
           {languages.map((lang) => (
             <div key={lang.id} className="hover:bg-[#1BE887] py-2 transition-colors duration-100 ease-in-out hover:text-black">
-              <Button text={lang.text} />
+              <Button  text={lang.text} />
             </div>
           ))}
         </div>
 
         <button className="search" aria-label="Search">
           <span className="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="white" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+            <svg className="w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="white" x="0px" y="0px"  viewBox="0 0 50 50">
               <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
             </svg>
           </span>

@@ -36,7 +36,7 @@ body::-webkit-scrollbar {
         padding: 40px;
     }
     .best,.info{
-        width: 100;
+        width: 100%;
     }
     .site-qsn{
         font-size: 36px;
@@ -49,6 +49,10 @@ body::-webkit-scrollbar {
        }
        .Btn{
         width: 75vw;
+       }
+
+       .summery{
+        display: none;
        }
 }
 
@@ -109,4 +113,157 @@ body::-webkit-scrollbar {
     }
   }
 
-  
+  @media(max-width:1300px){
+    .carousel{
+        height: 550px;
+    }
+    .title-slider{
+        font-size: 55px;
+    }
+  }
+  @media(max-width:1200px){
+    .carousel{
+        height: 500px;
+    }
+
+    .title-slider{
+        font-size: 50px;
+    }
+  }
+  @media(max-width:1100px){
+    .carousel{
+        height: 480px;
+    }
+    .title-slider{
+        font-size: 45px;
+    }
+    .icon{
+        width: 22px;
+        height: 22px;
+    }
+    .logo{
+        font-size: 35px;
+    }
+    .nav{
+        padding: 10px 25px;
+    }
+    .voltage-button{
+        font-size: 16px;
+    }
+    .detailbtn{
+            font-size: 16px;
+    }
+  }
+  @media(max-width:1000px){
+    .carousel{
+        height: 440px;
+    }
+    .title-slider{
+        font-size: 40px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+  }
+  @media(max-width:950px){
+    .controll-btn{
+        display: none;
+    }
+    .pagination{
+        top: 50%;
+    }
+    .carousel{
+        height: 410px;
+    }
+  }
+  @media(max-width:900px){
+    .carousel{
+        height: 390px;
+    }
+    .title-slider{
+        font-size: 35px;
+    }
+  }
+  @media(max-width:800px){
+    .carousel{
+        height: 350px;
+    }
+    .summery{
+        display: none;
+    }
+    .langs{
+        display: none;
+    }
+    .spotlight{
+        font-size: 14px;
+    }
+    .type{
+        font-size: 12px;
+    }
+    .slider-name{
+        font-size: 10px;
+    }
+    
+  }
+
+  @media(max-width:700px){
+    .carousel{
+        height: 310px;
+    }
+    .title-slider{
+        font-size: 28px;
+    }
+    .voltage-button button{
+        padding: 8px 15px ;
+    }
+    .detailbtn{
+        padding: 0.3em 1.5em;
+    }
+    .slider-name{
+        padding-bottom: 0px;
+    }
+    .detailcontainer{
+        padding: 3px 15px ;
+    }
+   }
+  @media(max-width:600px){
+    .carousel{
+        height: 300px;
+    }
+    .title-slider{
+        font-size: 22px;
+    }
+    .slider-btns{
+        padding-top: 8px;
+    }
+    .voltage-button button{
+        font-size: 12px;
+    }
+    .detailbtn{
+        font-size: 12px;
+    }
+  }
+
+  @media(max-width:400px){
+    .voltage-button button{
+        padding: 8px 10px ;
+        font-size: 12px;
+    }
+    .detailbtn{
+        padding: 0.3em 1em;
+        font-size: 12px;
+    }
+    .slider-name{
+        padding-bottom: 0px;
+    }
+    .detailcontainer{
+        padding: 3px 15px ;
+    }
+    .title-slider{
+        font-size: 20px;
+    }
+    .spotlight{
+        font-size: 11px;
+    }
+
+  }
