@@ -267,3 +267,54 @@ body::-webkit-scrollbar {
     }
 
   }
+
+  @media (max-width:1000px) {
+    .anime-in-trend{
+        min-width: 170px;
+        min-height: 240px;
+    }
+    .rank{
+        font-size: 50px;
+    }
+  }
+  @media (max-width:800px) {
+    .anime-in-trend{
+        min-width: 140px;
+        min-height: 220px;
+    }
+    .rank{
+        font-size: 40px;
+    }
+  }
+  @media (max-width:550px) {
+    .anime-in-trend{
+        min-width: 120px;
+        min-height: 180px;
+    }
+    .rank{
+        font-size: 30px;
+    }
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display:none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+
+  .anime-dubbed{
+    max-width: 25vw;
+    min-width: 350px;
+    width: calc(25% - 10px);
+    min-height: 300px;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ce783;
+  }
